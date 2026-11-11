@@ -1,0 +1,36 @@
+{
+  "title": "Paperclay 使用示例",
+  "author": "",
+  "footer": "示例演示",
+  "slides": [
+    {
+      "layout": "section_image",
+      "text": {"title": "项目介绍", "subtitle": "用一套固定的版式组织内容", "eyebrow": "演示示例"},
+      "notes": "这是脚本演示，左侧图片未提供时保留模板配色。"
+    },
+    {
+      "layout": "three_rows",
+      "text": {
+        "title": "制作流程",
+        "eyebrow": "使用方法",
+        "heading_1": "整理内容",
+        "body_1": "写清每页主题，准备需要展示的数据和图片。",
+        "heading_2": "选择版式",
+        "body_2": "按内容关系选择布局，用字段名填入对应位置。",
+        "heading_3": "检查预览",
+        "body_3": "渲染后逐页检查文字、间距和图表标签。"
+      }
+    },
+    {
+      "layout": "chart_full",
+      "text": {"title": "图表生成示例", "caption": "数据仅用于演示，不代表实际业务。"},
+      "charts": {"chart": {"type": "bar", "categories": ["第一期", "第二期", "第三期"], "series": [{"name": "示例数量", "values": [12, 18, 27]}]}},
+      "notes": "合成演示数据。"
+    },
+    {
+      "layout": "native_table",
+      "text": {"title": "字段填写示例", "caption": "按内容选择字段，空缺字段会清除提示文字。"},
+      "tables": {"table": {"headers": ["内容", "字段", "用途"], "rows": [["文字", "text", "填入标题与正文"], ["图片", "images", "嵌入本地图片"], ["图表", "charts", "生成可编辑数据图"]]}}
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+interface:
+  display_name: Paperclay Slides
+  short_description: 用暖纸白、陶土橙和克制排版制作可编辑路演与技术演示文稿
+  default_prompt: Use $paperclay-slides to create an editable presentation from my
+    brief using its warm paper palette and reusable layouts.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
